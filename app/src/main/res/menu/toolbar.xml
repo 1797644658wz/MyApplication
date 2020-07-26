@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/notice"
+        android:icon="@drawable/tab_first_pressed"
+        android:title="通知栏"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/take_photo"
+        android:icon="@drawable/tab_second_pressed"
+        android:title="拍照"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/tab_third_pressed"
+        android:title="Setting"
+        app:showAsAction="never"></item>
+    <item
+        android:title="搜索"
+        android:icon="@drawable/ic_search"
+        android:id="@+id/menu_search"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.widget.SearchView"></item>
+
+</menu>
